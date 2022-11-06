@@ -13,11 +13,14 @@ public class CursoJava {
          * Comandos de formatação
          * String %s
          * Inteiro %d
-         * 
-         * 
-         * 
          */
         System.out.printf("%s - %d", "CFB Cursos", 2021);
+        System.out.printf("\nCanal: %s - Ano: %d", "CFB Cursos", 2021);
+
+        int num = 100;
+        String nome = "Vanderson";
+
+        System.out.printf("O valor de num: %d %nNome %s", num, nome);
 
     }
 }
