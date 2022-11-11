@@ -1,9 +1,8 @@
 import java.util.Scanner;
 
 public class Aula04 {
+
     public static void main(String[] args) {
-        // Obtendo dados do teclado com um objeto da classe Scanner - Curso de Java -
-        // Aula 04
 
         // Criar um objeto do tipo scanner. importando a classe scanner
 
@@ -22,6 +21,7 @@ public class Aula04 {
         n2 = scan.nextInt();
         res = n1 + n2;
         System.out.printf("%s, a soma de %d com %d é igual a %d", nome, n1, n2, res);
+        scan.close();
 
     }
 }
